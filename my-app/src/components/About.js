@@ -1,8 +1,10 @@
+//this will import react
 import React from "react";
 
-
+// this is a functional component
 const About = () => {
     return(
+        // this is the JSX code
         <div className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30%  to-emerald-500 to-90% w-full h-screen">
         <div className="max-w-[1000px] h-full mx-auto px-3 flex flex-col justify-center text-[40px]">
             <header className="text-7xl text-gray-700 font-bold ml-[100px] mb-[30px]">This is about me section!</header>
@@ -19,6 +21,7 @@ const About = () => {
              </p>
         </div>
         <div className="h-[90px] bg-[#333]">
+            {/* // this is the footer */}
             <footer className="text-center text-white text-[20px] p-[30px] border-s-orange-100">
                 <p>© 2023 Max Sciuclin. All rights reserved.</p>
             </footer>
@@ -26,5 +29,5 @@ const About = () => {
 </div>
     )
 }
-
+// this will export the component
 export default About;
