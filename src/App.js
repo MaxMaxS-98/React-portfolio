@@ -21,11 +21,12 @@ function App() {
      {/* // this is the Routes component that will handle the routes that link to pages */}
     <Routes>
       <Route path="/" element={<Hero/>}/>
+      <Route path="*" element={<Hero/>}/>
       <Route path="/navbar" element={<Navbar/>}/>
-      <Route path="/hero" element={<Hero/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/projects" element={<Projects/>}/>
       <Route path="Skills" element={<Skills/>}/>
+      <Route path="*" element={<About />} />
     </Routes>
   </Router>
   );
