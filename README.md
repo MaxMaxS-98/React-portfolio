@@ -1,6 +1,6 @@
 # React-portfolio
 
-![Alt text](my-app/src/assets/Screenshot%202023-04-12%20at%206.02.27%20PM%20(2).png)
+![Alt text](src/assets/Screenshot%202023-04-12%20at%206.02.27%20PM%20(2).png)
 
 ## Description
 
